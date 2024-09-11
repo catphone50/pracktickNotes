@@ -1,0 +1,28 @@
+.item_container {
+  background-color: #d9dae0a8;
+  max-width: 350px;
+  margin: 20px 0;
+  padding: 20px 15px;
+}
+
+.item_header {
+  text-align: center;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+.edit_btn {
+  padding: 5px 17px;
+  border: 1px solid #d9dae0a8;
+  margin-right: 17px;
+}
+
+.delete_btn {
+  padding: 5px 17px;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #d9dae0a8;
+  background-color: rgb(116, 121, 126);
+}
