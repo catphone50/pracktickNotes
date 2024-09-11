@@ -30,6 +30,7 @@ function NoteForm({ addNoteToList }) {
   return (
     <form onSubmit={handleSubmit} className={styles.form_container}>
       <input
+        className={styles.input_title}
         onChange={handleChange}
         value={note.title}
         type="text"
@@ -38,13 +39,16 @@ function NoteForm({ addNoteToList }) {
         placeholder="Title"
       />
       <textarea
+        className={styles.input_content}
         onChange={handleChange}
         value={note.content}
         name="content"
         required
         placeholder="Content ..."
       />
-      <button type="submit">Add Note</button>
+      <button className={styles.btn_submit} type="submit">
+        Add Note
+      </button>
     </form>
   );
 }

@@ -4,5 +4,29 @@
   max-width: 350px;
   gap: 15px;
   padding: 20px 10px;
-  border: 1px solid #282c34;
+  border: none;
+}
+
+.input_title {
+  padding: 5px 7px;
+  font-weight: 600;
+  background-color: #a7b6d441;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.input_content {
+  padding: 5px 7px;
+  background-color: #a7b6d441;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.btn_submit {
+  padding: 5px 7px;
+  background-color: #a7b6d441;
+  border: 2px solid black;
+  font-weight: 600;
 }
